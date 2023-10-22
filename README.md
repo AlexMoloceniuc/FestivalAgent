@@ -1,4 +1,4 @@
-# FestivalAgent
+# FestivalAgent by Team AISTRALIS
 Festival Agent Chatbot for ZenkoAI Hackathon
 
 **Project Description**
