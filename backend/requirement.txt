@@ -1,0 +1,6 @@
+pip install langchain
+pip install openai
+pip install chromadb
+pip install tiktoken
+pip install pypdf
+pip install jq

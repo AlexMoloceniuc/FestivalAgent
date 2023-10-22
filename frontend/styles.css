@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Trebuchet MS', sans-serif; /* This is a playful font. You might want to download and use a custom festival font. */
+    background-color: #fffcde; /* Light, festive background color */
+    color: #d7385e; /* This needs to contrast with the background color */
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+#chat-button {
+    background: #ff6b6b; /* Bright, festive color */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px; /* Makes it more button-like */
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2); /* Optional: for a bit of depth */
+}
+
+#chat-content {
+    border: 2px dashed #ff6b6b; /* Fun, dashed border */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2); /* Optional: for a bit of depth */
+}
+
+.hidden {
+    display: none;
+}
+
+#messages {
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#user-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ff6b6b; /* Border color matching the theme */
+    border-radius: 5px; /* Slightly rounded corners for input */
+}
+
+/* Styles for the virtual agent introduction section */
+#virtual-agent-intro {
+    background-color: #fff; /* Or any other color that fits your theme */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px; /* Optional: for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: for a bit of depth */
+    max-width: 800px; /* Adjust based on your design preference */
+    text-align: left; /* Align text to the left, change as preferred */
+}
+
+#virtual-agent-intro h2 {
+    color: #d7385e; /* Or another color that fits your theme */
+    margin-bottom: 10px;
+}
+
+#virtual-agent-intro p {
+    color: #333; /* Adjust text color for visibility */
+    line-height: 1.6; /* Spacing for readability */
+}

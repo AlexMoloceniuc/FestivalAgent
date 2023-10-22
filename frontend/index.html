@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Festival Chatbot</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header>
+    <h1>Welcome to the Festival!</h1>
+<!--
+    <img src="festival_banner.jpg" alt="Festival Banner" style="width:100%; height:auto;">
+-->
+</header>
+
+
+
+<!-- New section for the Aistralis Virtual Agent introduction -->
+<section id="virtual-agent-intro">
+    <h2>Aistralis Virtual Agent</h2>
+    <p>
+        Aistralis Virtual Agent is here to help you with any question about:
+
+        Tickets, Locations, Transport, Food, Music, Program, Beverages, Urgency, and Festival History.
+
+    </p>
+</section>
+
+<div id="chat-container">
+    <div id="chat-button">
+        Aistralis Agent
+    </div>
+    <div id="chat-content" class="hidden">
+        <div id="messages"></div>
+        <input type="text" id="user-input" placeholder="Type a message...">
+    </div>
+</div>
+
+<!-- Optional festive music -->
+<audio controls autoplay loop hidden>
+    <source src="festival_music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
